@@ -2,4 +2,89 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* float---------------------------------------- */
+
+.box-float div {
+  float: left;
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.box-float div:first-child {
+  margin-left: 0;
+}
+
+/* table---------------------------------------- */
+
+.table-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-content div {
+  box-sizing: border-box;
+  width: 225px;
+  margin-left: 50px;
+}
+
+.table-content:first-child div {
+  margin-left: 0;
+}
+
+/* inline-block--------------------------------- */
+
+.box-inlineblock {
+  font-size: 0;
+}
+
+.box-inlineblock div {
+  font-size: 16px;
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.box-inlineblock div:first-child {
+  margin-left: 0;
+}
+
+/* flex----------------------------------------- */
+
+.box-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.box-flex div {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* inline-blockとmargin-------------------------- */
+
+.box-margin {
+  display: flex;
+  align-items: flex-start;
+}
+
+.margin-content:first-child {
+  min-width: 300px;
+  margin-right: 50px;
+}
+
+.margin-content:last-child {
+  min-width: 0;
+}
+
 /* 回答はここに書いてね */

@@ -2,4 +2,46 @@
 
 /* 回答はここに書いてね */
 
+.box {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box::before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -50px;
+  left: 40px;
+  border: 25px solid transparent;
+  border-top: 25px solid #222;
+}
+
+.box::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -42px;
+  left: 40px;
+  border: 25px solid transparent;
+  border-top: 25px solid #fff;
+  z-index: 2;
+}
+
+.box-content {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
+
+.text {
+  font: 16px;
+  line-height: 16px;
+  word-break: break-all;
+}
+
 /* 回答はここに書いてね */

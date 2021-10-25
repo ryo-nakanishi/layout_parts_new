@@ -2,4 +2,42 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
+}
+
+.q1-content {
+  width: 270px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #3274ae;
+  box-sizing: border-box;
+  float: left;
+}
+
+.q1-content:first-child {
+  margin-left: 0;
+}
+
+.content-box {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #eaf4ff;
+  border: 10px solid #022336;
+}
+
+.content-text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
 /* 回答はここに書いてね */
