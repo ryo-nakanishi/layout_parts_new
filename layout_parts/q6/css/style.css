@@ -2,18 +2,18 @@
 
 /* 回答はここに書いてね */
 
-.box-text-align div {
+.box-text-align {
   text-align: center;
 }
 
-.box-text-align div p {
+.box-text-align__text {
   display: inline-block;
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
 }
 
-.box-margin p {
+.box-margin__text {
   width: 90px;
   margin: 0 auto;
   padding: 10px 0;
@@ -25,13 +25,13 @@
   display: table;
 }
 
-.box-table div {
+.box-table-inner {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.box-table div p {
+.box-table-inner__text {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.box-flex p {
+.box-flex__text {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
@@ -53,7 +53,7 @@
   position: relative;
 }
 
-.box-position-l p {
+.box-position-l__text {
   position: absolute;
   top: 0;
   right: 0;
@@ -66,7 +66,7 @@
   position: relative;
 }
 
-.box-position-r p {
+.box-position-r__text {
   position: absolute;
   top: 50%;
   left: 50%;

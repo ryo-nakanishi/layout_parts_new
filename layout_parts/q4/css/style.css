@@ -12,7 +12,7 @@
 .table {
   width: 100%;
   display: table;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .table:last-child {
@@ -26,29 +26,29 @@
   padding: 20px 0;
 }
 
-.top-content div:nth-child(1) {
+.top-content__box-left {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.top-content div:nth-child(2) {
+.top-content__box-center {
   background-color: #e0abd9;
 }
 
-.top-content div:nth-child(3) {
+.top-content__box-right {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.bottom-content div:nth-child(1) {
+.bottom-content__box-left {
   background-color: #e5d32e;
 }
 
-.bottom-content div:nth-child(2) {
+.bottom-content__box-center {
   background-color: #ec8f9a;
 }
 
-.bottom-content div:nth-child(3) {
+.bottom-content__box-right {
   background-color: #8fdcad;
   width: 500px;
 }

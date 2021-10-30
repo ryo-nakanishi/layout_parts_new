@@ -2,37 +2,37 @@
 
 /* 回答はここに書いてね */
 
-table {
+.table {
   width: 100%;
   table-layout: fixed;
 }
 
-th, td {
+.table th, td {
   padding: 10px 0;
   text-align: center;
   vertical-align: middle;
 }
 
-table, th, td {
+.table,.table th, td {
   border: 1px solid #dedede;
 }
 
-tfoot tr {
+.table tfoot tr {
   border-top: 2px dashed #000;
 }
 
-tbody tr:nth-child(even) td {
+.table tbody tr:nth-child(even) td {
   background-color: #ecf1f2;
 }
 
-th {
+.table th {
   background-color: #24a;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-td {
+.table td {
   font-size: 16px;
   line-height: 22px;
 }
