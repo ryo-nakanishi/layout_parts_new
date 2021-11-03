@@ -10,16 +10,15 @@
 
 /* float---------------------------------------- */
 
-.box-float div {
+.box-float-text {
   float: left;
   width: 225px;
   box-sizing: border-box;
-  margin-left: 50px;
   font-size: 16px;
 }
 
-.box-float div:first-child {
-  margin-left: 0;
+.box-float-text-left {
+  margin-right: 50px;
 }
 
 /* table---------------------------------------- */
@@ -29,14 +28,13 @@
   vertical-align: middle;
 }
 
-.table-content div {
+.table-content-text {
   box-sizing: border-box;
   width: 225px;
-  margin-left: 50px;
 }
 
-.table-content:first-child div {
-  margin-left: 0;
+.table-content-left .table-content-text {
+  margin-right: 50px;
 }
 
 /* inline-block--------------------------------- */
@@ -45,17 +43,16 @@
   font-size: 0;
 }
 
-.box-inlineblock div {
+.box-inlineblock-text {
   font-size: 16px;
   display: inline-block;
   width: 225px;
   box-sizing: border-box;
   vertical-align: middle;
-  margin-left: 50px;
 }
 
-.box-inlineblock div:first-child {
-  margin-left: 0;
+.box-inlineblock-text-left {
+  margin-right: 50px;
 }
 
 /* flex----------------------------------------- */
@@ -66,7 +63,7 @@
   align-items: flex-end;
 }
 
-.box-flex div {
+.box-flex-text{
   width: 225px;
   box-sizing: border-box;
 }
@@ -78,12 +75,12 @@
   align-items: flex-start;
 }
 
-.margin-content:first-child {
+.margin-content-left {
   min-width: 300px;
   margin-right: 50px;
 }
 
-.margin-content:last-child {
+.margin-content-right{
   min-width: 0;
 }
 
