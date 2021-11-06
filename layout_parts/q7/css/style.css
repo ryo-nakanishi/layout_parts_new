@@ -71,17 +71,32 @@
 /* inline-blockとmargin-------------------------- */
 
 .box-margin {
-  display: flex;
-  align-items: flex-start;
+  font-size: 0;
+  /* display: flex;
+  align-items: flex-start; */
+}
+
+.margin-content {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .margin-content-left {
-  min-width: 300px;
-  margin-right: 50px;
+  width: 300px;
+  /* width: 300px;
+  margin-right: 50px; */
 }
 
 .margin-content-right{
-  min-width: 0;
+  box-sizing: border-box;
+  margin-left: -300px;
+  padding-left: 350px;
+  width: 100%;
+  /* flex: 1; */
+}
+
+.margin-content-text {
+  font-size: 16px;
 }
 
 /* 回答はここに書いてね */
